@@ -57,13 +57,12 @@
   </style>
 </head>
 
-<body
-  class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-300">
+<body class="bg-[#F9FAFB] dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-300">
   <nav
     class="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md border-b border-gray-100 dark:border-gray-800">
     <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
       <div class="flex items-center gap-2">
-        <img src="./Image (World Link Limited).svg" alt="World Link">
+        <img src="./images/Image (World Link Limited).svg" alt="World Link">
       </div>
       <div class="hidden md:flex items-center gap-10 text-sm font-semibold">
         <a class="hover:text-primary transitaion-colors" href="#">About</a>
@@ -138,6 +137,7 @@
       </div>
     </div>
   </header>
+  <!--ABOUT-->
   <section class="py-20 bg-slate-50 dark:bg-slate-900/50">
     <div class="max-w-7xl mx-auto px-6 grid lg:grid-cols-12 gap-16">
       <div class="lg:col-span-1 mt-14">
@@ -160,13 +160,13 @@
           and security.
         </p>
         <div class="grid grid-cols-2 gap-8 pt-8 border-t border-slate-200 dark:border-slate-800">
-          <div>
-            <div class="text-3xl font-bold text-primary mb-1">99.9%</div>
-            <p class="text-xs uppercase tracking-widest font-bold opacity-60">Uptime SLA</p>
+          <div class="flex justify-start items-center gap-2 flex-col">
+            <div class="text-4xl font-bold text-primary mb-1">99.9%</div>
+            <p class="text-sm tracking-widest font-medium -ms-4">Uptime SLA</p>
           </div>
-          <div>
-            <div class="text-3xl font-bold text-primary mb-1">24/7</div>
-            <p class="text-xs uppercase tracking-widest font-bold opacity-60">Global Support</p>
+          <div class="flex justify-start items-center gap-2 flex-col">
+            <div class="text-4xl font-bold text-primary mb-1">24/7</div>
+            <p class="text-sm tracking-widest font-medium -ms-4">Support</p>
           </div>
         </div>
       </div>
@@ -218,262 +218,918 @@
       </div>
     </div>
   </section>
-  <section class="bg-primary py-32 text-white">
+  <!-- mission and vision -->
+  <section class="relative overflow-hidden bg-gradient-to-b from-[#E7000B] to-[#810006] py-28 text-white">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="mb-20">
-        <div class="text-sm font-bold uppercase tracking-[0.4em] mb-4">Our Purpose</div>
-        <h2 class="text-5xl font-extrabold">Mission &amp; Vision</h2>
-      </div>
-      <div class="grid md:grid-cols-2 gap-px bg-white/20">
-        <div class="bg-primary p-12 hover:bg-red-700 transition-colors">
-          <div class="w-16 h-16 rounded-full border border-white/40 flex items-center justify-center mb-8">
-            <span class="material-icons text-3xl">bullseye</span>
+
+      <!-- Header -->
+      <div class="flex items-start gap-4 flex-col">
+        <div>
+          <div class="line-accent bg-white mb-4"></div>
+          <div class="text-sm font-semibold uppercase tracking-[0.15em] mb-2">
+            OUR PURPOSE
           </div>
-          <div class="text-xs font-bold uppercase tracking-widest mb-4">Our Mission</div>
-          <h3 class="text-3xl font-bold mb-6">Empowering Telecom Operators to Unlock Digital Revenue</h3>
-          <p class="text-white/80 leading-relaxed text-lg">
-            To deliver world-class Value-Added Services and Direct Carrier Billing solutions that enable operators to
-            monetize their subscriber base and enhance customer engagement.
-          </p>
         </div>
-        <div class="bg-primary p-12 hover:bg-red-700 transition-colors">
-          <div class="w-16 h-16 rounded-full border border-white/40 flex items-center justify-center mb-8">
-            <span class="material-icons text-3xl">visibility</span>
-          </div>
-          <div class="text-xs font-bold uppercase tracking-widest mb-4">Our Vision</div>
-          <h3 class="text-3xl font-bold mb-6">Global Leadership in Telecom Digital Services</h3>
-          <p class="text-white/80 leading-relaxed text-lg">
-            To be the most trusted and innovative partner for telecom operators worldwide, setting the industry standard
-            for VAS and DCB platform excellence.
-          </p>
+        <div>
+          <h2 class="text-5xl md:text-6xl font-normal leading-[0.95]">
+            Mission &amp; Vision
+          </h2>
         </div>
       </div>
-      <div class="mt-16 flex items-center gap-6">
-        <span class="material-icons text-white/40">trending_flat</span>
-        <p class="text-xl font-medium italic">"Committed to operator success through innovation, reliability, and
-          strategic partnership."</p>
+
+      <!-- Cards -->
+      <div class="mt-16 max-w-6xl mx-auto">
+        <div class="grid md:grid-cols-2 gap-10">
+
+          <!-- Mission (White Card) -->
+          <div class="bg-white text-[#111] p-10 sm:p-12">
+            <div class="w-12 h-12 flex items-center justify-center mb-8">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                <path
+                  d="M23.9992 43.9984C35.0444 43.9984 43.9984 35.0444 43.9984 23.9992C43.9984 12.9539 35.0444 4 23.9992 4C12.9539 4 4 12.9539 4 23.9992C4 35.0444 12.9539 43.9984 23.9992 43.9984Z"
+                  stroke="#E7000B" stroke-width="3.99984" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M23.9995 35.9995C30.6269 35.9995 35.9995 30.6269 35.9995 23.9995C35.9995 17.3721 30.6269 11.9995 23.9995 11.9995C17.3721 11.9995 11.9995 17.3721 11.9995 23.9995C11.9995 30.6269 17.3721 35.9995 23.9995 35.9995Z"
+                  stroke="#E7000B" stroke-width="3.99984" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M23.999 27.9993C26.2082 27.9993 27.999 26.2084 27.999 23.9993C27.999 21.7901 26.2082 19.9993 23.999 19.9993C21.7899 19.9993 19.999 21.7901 19.999 23.9993C19.999 26.2084 21.7899 27.9993 23.999 27.9993Z"
+                  stroke="#E7000B" stroke-width="3.99984" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+
+            <div class="text-[11px] font-bold uppercase tracking-[0.35em] text-[#6B7280] mb-4">
+              OUR MISSION
+            </div>
+
+            <h3 class="text-[22px] sm:text-[26px] font-medium leading-snug mb-6">
+              Empowering Telecom Operators<br class="hidden sm:block" />
+              to Unlock Digital Revenue
+            </h3>
+
+            <p class="text-gray-600 leading-relaxed mb-5 text-lg">
+              To deliver world-class Value-Added Services and Direct Carrier Billing solutions that enable telecom
+              operators to monetize their subscriber base, enhance customer engagement, and create sustainable digital
+              revenue streams.
+            </p>
+
+            <p class="text-gray-600 leading-relaxed text-lg">
+              We envision a future where every operator can seamlessly monetize digital content, maximize subscriber
+              lifetime value, and lead their markets with confidence.
+            </p>
+          </div>
+
+          <!-- Vision (Red Panel) -->
+          <div class="border-l-8 border-l-white bg-gradient-to-b from-[#E7000B] to-[#810006]  p-10 sm:p-12">
+            <div class="w-12 h-12 flex items-center justify-center mb-8">
+              <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48" fill="none">
+                <path
+                  d="M4.12403 24.6949C3.95735 24.2459 3.95735 23.752 4.12403 23.303C5.74736 19.3668 8.50288 16.0013 12.0412 13.6331C15.5796 11.265 19.7415 10.0007 23.9992 10.0007C28.257 10.0007 32.4188 11.265 35.9572 13.6331C39.4956 16.0013 42.2511 19.3668 43.8744 23.303C44.0411 23.752 44.0411 24.2459 43.8744 24.6949C42.2511 28.631 39.4956 31.9965 35.9572 34.3647C32.4188 36.7329 28.257 37.9971 23.9992 37.9971C19.7415 37.9971 15.5796 36.7329 12.0412 34.3647C8.50288 31.9965 5.74736 28.631 4.12403 24.6949Z"
+                  stroke="white" stroke-width="3.99984" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M23.999 29.9993C27.3127 29.9993 29.999 27.313 29.999 23.9993C29.999 20.6856 27.3127 17.9993 23.999 17.9993C20.6853 17.9993 17.999 20.6856 17.999 23.9993C17.999 27.313 20.6853 29.9993 23.999 29.9993Z"
+                  stroke="white" stroke-width="3.99984" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+
+            <div class="text-[11px] font-bold uppercase tracking-[0.35em] opacity-80 mb-4">
+              OUR VISION
+            </div>
+
+            <h3 class="text-[22px] sm:text-[26px] font-medium leading-snug mb-6">
+              Global Leadership in<br class="hidden sm:block" />
+              Telecom Digital Services
+            </h3>
+
+            <p class="text-[#F4F9FF] leading-relaxed mb-5 text-lg">
+              To be the most trusted and innovative partner for telecom operators worldwide, setting the industry
+              standard for VAS and DCB platform excellence, reliability, and scalability.
+            </p>
+
+            <p class="text-[#F4F9FF] leading-relaxed text-lg">
+              We envision a future where every operator can seamlessly monetize digital content, maximize subscriber
+              lifetime value, and lead their markets with confidence.
+            </p>
+          </div>
+        </div>
+
+        <!-- Bottom line + centered note + left arrow -->
+        <div class="relative mt-14 pt-8 border-t border-white">
+          <span class="material-icons absolute left-0 top-8 text-white/35">trending_flat</span>
+          <p class="text-center text-xs sm:text-sm tracking-wide text-white">
+            Committed to operator success through innovation, reliability, and strategic partnership.
+          </p>
+        </div>
       </div>
+
     </div>
   </section>
+  <!-- services -->
   <section class="py-24 bg-white dark:bg-background-dark">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="mb-16">
-        <div class="line-accent mb-4"></div>
-        <div class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Our Services</div>
-        <h2 class="text-4xl font-bold mb-6">Complete Digital Service Portfolio</h2>
-        <p class="max-w-2xl text-slate-500">From monetization to engagement, we provide telecom operators with
-          enterprise-grade tools to create new revenue streams.</p>
+      <div class="mb-16 flex gap-5">
+        <div class="line-accent h-40 mb-4"></div>
+        <div>
+          <div class="text-sm font-medium uppercase tracking-widest text-primary mb-2">Our Services</div>
+          <h2 class="text-5xl md:text-6xl font-normal mb-6">Complete Digital Service Portfolio</h2>
+          <p class="max-w-2xl ps-2  pe-5 text-slate-600">From monetization to engagement, we provide telecom operators
+            with
+            enterprise-grade tools to create new revenue streams and enhance subscriber loyalty.</p>
+        </div>
       </div>
       <div
         class="grid md:grid-cols-3 gap-px bg-slate-100 dark:bg-slate-800 border border-slate-100 dark:border-slate-800">
         <div
           class="bg-background-light dark:bg-background-dark p-10 group hover:bg-slate-50 dark:hover:bg-slate-900 transition-all">
           <div class="flex justify-between items-start mb-8">
-            <span class="material-icons text-primary text-4xl">smartphone</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <path
+                d="M28.3335 3.33325H11.6668C9.82588 3.33325 8.3335 4.82564 8.3335 6.66659V33.3333C8.3335 35.1742 9.82588 36.6666 11.6668 36.6666H28.3335C30.1744 36.6666 31.6668 35.1742 31.6668 33.3333V6.66659C31.6668 4.82564 30.1744 3.33325 28.3335 3.33325Z"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M20 30H20.0167" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
             <span
-              class="text-4xl font-black text-slate-100 dark:text-slate-800 group-hover:text-primary/20 transition-colors">01</span>
+              class="text-6xl text-[#BFBFBF] dark:text-slate-800 group-hover:text-primary/20 transition-colors">01</span>
           </div>
           <h4 class="text-xl font-bold mb-4">Value-Added Services</h4>
-          <p class="text-sm text-slate-500 leading-relaxed">Comprehensive suite of mobile services including messaging,
+          <p class="text-sm text-slate-600 leading-relaxed">Comprehensive suite of mobile services including messaging,
             subscriptions, and premium content delivery platforms.</p>
         </div>
         <div
           class="bg-background-light dark:bg-background-dark p-10 group hover:bg-slate-50 dark:hover:bg-slate-900 transition-all">
           <div class="flex justify-between items-start mb-8">
-            <span class="material-icons text-primary text-4xl">payments</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <path
+                d="M33.3335 8.33325H6.66683C4.82588 8.33325 3.3335 9.82564 3.3335 11.6666V28.3333C3.3335 30.1742 4.82588 31.6666 6.66683 31.6666H33.3335C35.1744 31.6666 36.6668 30.1742 36.6668 28.3333V11.6666C36.6668 9.82564 35.1744 8.33325 33.3335 8.33325Z"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M3.3335 16.6667H36.6668" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
             <span
-              class="text-4xl font-black text-slate-100 dark:text-slate-800 group-hover:text-primary/20 transition-colors">02</span>
+              class="text-6xl text-[#BFBFBF] dark:text-slate-800 group-hover:text-primary/20 transition-colors">02</span>
           </div>
           <h4 class="text-xl font-bold mb-4">Direct Carrier Billing</h4>
-          <p class="text-sm text-slate-500 leading-relaxed">Seamless payment solutions enabling users to purchase
+          <p class="text-sm text-slate-600 leading-relaxed">Seamless payment solutions enabling users to purchase
             digital content charged directly to their mobile bill.</p>
         </div>
         <div
           class="bg-background-light dark:bg-background-dark p-10 group hover:bg-slate-50 dark:hover:bg-slate-900 transition-all">
           <div class="flex justify-between items-start mb-8">
-            <span class="material-icons text-primary text-4xl">sports_esports</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <path d="M10 18.3333H16.6667" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M13.3335 15V21.6667" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M25 20H25.0167" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M30 16.6667H30.0167" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M28.8668 8.33325H11.1335C9.48396 8.33364 7.89314 8.94555 6.66855 10.0507C5.44396 11.1558 4.67257 12.6757 4.5035 14.3166C4.4935 14.4033 4.48683 14.4849 4.47516 14.5699C4.34016 15.6933 3.3335 24.0933 3.3335 26.6666C3.3335 27.9927 3.86028 29.2644 4.79796 30.2021C5.73564 31.1398 7.00741 31.6666 8.3335 31.6666C10.0002 31.6666 10.8335 30.8333 11.6668 29.9999L14.0235 27.6433C14.6485 27.0181 15.4962 26.6668 16.3802 26.6666H23.6202C24.5041 26.6668 25.3519 27.0181 25.9768 27.6433L28.3335 29.9999C29.1668 30.8333 30.0002 31.6666 31.6668 31.6666C32.9929 31.6666 34.2647 31.1398 35.2024 30.2021C36.14 29.2644 36.6668 27.9927 36.6668 26.6666C36.6668 24.0916 35.6602 15.6933 35.5252 14.5699C35.5135 14.4866 35.5068 14.4033 35.4968 14.3183C35.3281 12.6771 34.5569 11.1568 33.3323 10.0513C32.1077 8.94582 30.5166 8.33368 28.8668 8.33325Z"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
             <span
-              class="text-4xl font-black text-slate-100 dark:text-slate-800 group-hover:text-primary/20 transition-colors">03</span>
+              class="text-6xl text-[#BFBFBF] dark:text-slate-800 group-hover:text-primary/20 transition-colors">03</span>
           </div>
           <h4 class="text-xl font-bold mb-4">Gaming &amp; Digital Content</h4>
-          <p class="text-sm text-slate-500 leading-relaxed">Mobile gaming platforms, eSports solutions, and digital
+          <p class="text-sm text-slate-600 leading-relaxed">Mobile gaming platforms, eSports solutions, and digital
             content distribution networks for operators.</p>
         </div>
         <div
           class="bg-background-light dark:bg-background-dark p-10 group hover:bg-slate-50 dark:hover:bg-slate-900 transition-all">
           <div class="flex justify-between items-start mb-8">
-            <span class="material-icons text-primary text-4xl">psychology</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <path
+                d="M20 8.33334C20.002 7.66672 19.8706 7.00644 19.6137 6.39134C19.3567 5.77623 18.9794 5.21871 18.5038 4.75158C18.0283 4.28444 17.4641 3.91712 16.8445 3.67122C16.2249 3.42532 15.5623 3.3058 14.8959 3.31969C14.2294 3.33358 13.5724 3.4806 12.9636 3.75211C12.3548 4.02362 11.8064 4.41413 11.3507 4.90068C10.895 5.38722 10.5412 5.95998 10.3101 6.58526C10.079 7.21054 9.9753 7.87571 10.005 8.54167C9.02538 8.79356 8.11588 9.26509 7.34543 9.92052C6.57498 10.576 5.96377 11.3981 5.55812 12.3247C5.15246 13.2514 4.96298 14.2582 5.00402 15.2689C5.04507 16.2796 5.31557 17.2677 5.79504 18.1583C4.95201 18.8432 4.28909 19.7237 3.86394 20.7232C3.4388 21.7227 3.26431 22.811 3.35565 23.8933C3.44699 24.9756 3.8014 26.0193 4.38805 26.9334C4.9747 27.8475 5.77582 28.6044 6.72171 29.1383C6.6049 30.0421 6.67461 30.9601 6.92652 31.8359C7.17843 32.7116 7.6072 33.5264 8.18635 34.2299C8.7655 34.9335 9.48273 35.5108 10.2937 35.9263C11.1048 36.3417 11.9923 36.5866 12.9017 36.6456C13.811 36.7046 14.7228 36.5765 15.5807 36.2694C16.4386 35.9622 17.2244 35.4824 17.8896 34.8596C18.5549 34.2368 19.0853 33.4843 19.4483 32.6484C19.8113 31.8126 19.9991 30.9112 20 30V8.33334Z"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M15 21.6667C16.3993 21.1744 17.6211 20.2783 18.5111 19.0917C19.4011 17.905 19.9192 16.4811 20 15"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M10.0049 8.54175C10.0378 9.34797 10.2654 10.1342 10.6682 10.8334" stroke="black"
+                stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M5.79492 18.16C6.09982 17.9117 6.42609 17.6908 6.76992 17.5" stroke="black"
+                stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M10 29.9999C8.8514 30.0004 7.72212 29.7042 6.72168 29.1399" stroke="black" stroke-width="3.33333"
+                stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M20 21.6667H26.6667" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M20 30H30C30.8841 30 31.7319 30.3512 32.357 30.9763C32.9821 31.6014 33.3333 32.4493 33.3333 33.3333V35"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path d="M20 13.3333H33.3333" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M26.6665 13.3333V8.33333C26.6665 7.44928 27.0177 6.60143 27.6428 5.97631C28.2679 5.35119 29.1158 5 29.9998 5"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M26.6668 22.4999C27.1271 22.4999 27.5002 22.1268 27.5002 21.6666C27.5002 21.2063 27.1271 20.8333 26.6668 20.8333C26.2066 20.8333 25.8335 21.2063 25.8335 21.6666C25.8335 22.1268 26.2066 22.4999 26.6668 22.4999Z"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M29.9998 5.83341C30.4601 5.83341 30.8332 5.46032 30.8332 5.00008C30.8332 4.53984 30.4601 4.16675 29.9998 4.16675C29.5396 4.16675 29.1665 4.53984 29.1665 5.00008C29.1665 5.46032 29.5396 5.83341 29.9998 5.83341Z"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M33.3333 35.8334C33.7936 35.8334 34.1667 35.4603 34.1667 35.0001C34.1667 34.5398 33.7936 34.1667 33.3333 34.1667C32.8731 34.1667 32.5 34.5398 32.5 35.0001C32.5 35.4603 32.8731 35.8334 33.3333 35.8334Z"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M33.3333 14.1667C33.7936 14.1667 34.1667 13.7936 34.1667 13.3333C34.1667 12.8731 33.7936 12.5 33.3333 12.5C32.8731 12.5 32.5 12.8731 32.5 13.3333C32.5 13.7936 32.8731 14.1667 33.3333 14.1667Z"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
             <span
-              class="text-4xl font-black text-slate-100 dark:text-slate-800 group-hover:text-primary/20 transition-colors">04</span>
+              class="text-6xl text-[#BFBFBF] dark:text-slate-800 group-hover:text-primary/20 transition-colors">04</span>
           </div>
           <h4 class="text-xl font-bold mb-4">AI &amp; Digital Platforms</h4>
-          <p class="text-sm text-slate-500 leading-relaxed">Intelligent automation, chatbots, and AI-powered customer
+          <p class="text-sm text-slate-600 leading-relaxed">Intelligent automation, chatbots, and AI-powered customer
             engagement tools to enhance user experience.</p>
         </div>
         <div
           class="bg-background-light dark:bg-background-dark p-10 group hover:bg-slate-50 dark:hover:bg-slate-900 transition-all">
           <div class="flex justify-between items-start mb-8">
-            <span class="material-icons text-primary text-4xl">business</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <path d="M20 16.6667H20.0167" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M20 23.3333H20.0167" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M20 10H20.0167" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M26.6665 16.6667H26.6832" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M26.6665 23.3333H26.6832" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M26.6665 10H26.6832" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M13.3335 16.6667H13.3502" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M13.3335 23.3333H13.3502" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path d="M13.3335 10H13.3502" stroke="black" stroke-width="3.33333" stroke-linecap="round"
+                stroke-linejoin="round" />
+              <path
+                d="M15 36.6667V31.6667C15 31.2246 15.1756 30.8007 15.4882 30.4882C15.8007 30.1756 16.2246 30 16.6667 30H23.3333C23.7754 30 24.1993 30.1756 24.5118 30.4882C24.8244 30.8007 25 31.2246 25 31.6667V36.6667"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M29.9998 3.33325H9.99984C8.15889 3.33325 6.6665 4.82564 6.6665 6.66659V33.3333C6.6665 35.1742 8.15889 36.6666 9.99984 36.6666H29.9998C31.8408 36.6666 33.3332 35.1742 33.3332 33.3333V6.66659C33.3332 4.82564 31.8408 3.33325 29.9998 3.33325Z"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
             <span
-              class="text-4xl font-black text-slate-100 dark:text-slate-800 group-hover:text-primary/20 transition-colors">05</span>
+              class="text-6xl text-[#BFBFBF] dark:text-slate-800 group-hover:text-primary/20 transition-colors">05</span>
           </div>
           <h4 class="text-xl font-bold mb-4">Enterprise Solutions</h4>
-          <p class="text-sm text-slate-500 leading-relaxed">B2B platforms for corporate messaging, IoT services, and
+          <p class="text-sm text-slate-600 leading-relaxed">B2B platforms for corporate messaging, IoT services, and
             enterprise-grade communication tools.</p>
         </div>
         <div
           class="bg-background-light dark:bg-background-dark p-10 group hover:bg-slate-50 dark:hover:bg-slate-900 transition-all">
           <div class="flex justify-between items-start mb-8">
-            <span class="material-icons text-primary text-4xl">integration_instructions</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+              <path
+                d="M21.3831 3.63336C20.9488 3.43527 20.4771 3.33276 19.9998 3.33276C19.5225 3.33276 19.0507 3.43527 18.6164 3.63336L4.33311 10.1334C4.03736 10.2638 3.78591 10.4774 3.60938 10.7481C3.43285 11.0189 3.33887 11.3351 3.33887 11.6584C3.33887 11.9816 3.43285 12.2978 3.60938 12.5686C3.78591 12.8394 4.03736 13.053 4.33311 13.1834L18.6331 19.7C19.0674 19.8981 19.5391 20.0006 20.0164 20.0006C20.4938 20.0006 20.9655 19.8981 21.3998 19.7L35.6998 13.2C35.9955 13.0696 36.247 12.856 36.4235 12.5853C36.6 12.3145 36.694 11.9983 36.694 11.675C36.694 11.3518 36.6 11.0355 36.4235 10.7648C36.247 10.494 35.9955 10.2804 35.6998 10.15L21.3831 3.63336Z"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M3.3335 20C3.33271 20.3188 3.42336 20.6311 3.5947 20.8999C3.76603 21.1687 4.01087 21.3828 4.30017 21.5167L18.6335 28.0333C19.0655 28.229 19.5343 28.3301 20.0085 28.3301C20.4827 28.3301 20.9515 28.229 21.3835 28.0333L35.6835 21.5333C35.9785 21.4007 36.2286 21.1852 36.4032 20.9129C36.5778 20.6406 36.6694 20.3234 36.6668 20"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+              <path
+                d="M3.3335 28.3333C3.33271 28.652 3.42336 28.9643 3.5947 29.2332C3.76603 29.502 4.01087 29.716 4.30017 29.8499L18.6335 36.3666C19.0655 36.5622 19.5343 36.6634 20.0085 36.6634C20.4827 36.6634 20.9515 36.5622 21.3835 36.3666L35.6835 29.8666C35.9785 29.734 36.2286 29.5184 36.4032 29.2461C36.5778 28.9739 36.6694 28.6567 36.6668 28.3333"
+                stroke="black" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
             <span
-              class="text-4xl font-black text-slate-100 dark:text-slate-800 group-hover:text-primary/20 transition-colors">06</span>
+              class="text-6xl text-[#BFBFBF] dark:text-slate-800 group-hover:text-primary/20 transition-colors">06</span>
           </div>
           <h4 class="text-xl font-bold mb-4">Operator Integration</h4>
-          <p class="text-sm text-slate-500 leading-relaxed">End-to-end integration services with telecom APIs, reducing
+          <p class="text-sm text-slate-600 leading-relaxed">End-to-end integration services with telecom APIs, reducing
             operational risk and accelerating revenue.</p>
         </div>
       </div>
     </div>
   </section>
-  <section class="bg-primary py-24 text-white">
+  <!-- PROVEN AT SCALE-->
+  <section class="relative bg-gradient-to-b from-[#E7000B] to-[#810006] py-20 text-white">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="grid md:grid-cols-3 gap-12 border-y border-white/20 py-16">
-        <div class="text-center md:text-left">
-          <div class="text-7xl font-black mb-4">20+</div>
-          <div class="text-lg font-bold opacity-80 uppercase tracking-widest">Telecom Operators</div>
-          <div class="text-xs mt-2 opacity-50 font-bold">ACTIVE PARTNERSHIPS</div>
+      <!-- tiny top label -->
+      <div class="text-sm font-semibold uppercase tracking-[0.45em] text-white/70 mb-5">
+        Proven at Scale
+      </div>
+
+      <!-- title -->
+      <h2 class="text-[34px] sm:text-[40px] md:text-[44px] font-medium leading-tight">
+        Trusted Infrastructure<br />
+        Global Reach
+      </h2>
+
+      <!-- stats -->
+      <div class="mt-10 grid gap-10 md:grid-cols-3">
+        <!-- item -->
+        <div class="relative pl-8">
+          <span class="absolute left-0 top-1 bottom-1 w-1 bg-white"></span>
+          <div class="text-7xl md:text-8xl font-semibold tracking-tight">20+</div>
+          <div class="mt-2 text-2xl font-semibold mb-4 text-white/85">
+            Telecom Operators
+          </div>
+          <div class="mt-1 text-sm uppercase tracking-[0.12em] text-white">
+            Active Partnerships
+          </div>
         </div>
-        <div class="text-center md:text-left">
-          <div class="text-7xl font-black mb-4">15+</div>
-          <div class="text-lg font-bold opacity-80 uppercase tracking-widest">Digital Services</div>
-          <div class="text-xs mt-2 opacity-50 font-bold">LIVE DEPLOYMENTS</div>
+
+        <!-- item -->
+        <div class="relative pl-8">
+          <span class="absolute left-0 top-1 bottom-1 w-1 bg-white"></span>
+          <div class="text-7xl md:text-8xl font-semibold tracking-tight">15+</div>
+          <div class="mt-2 text-2xl font-semibold mb-4 text-white/85">
+            Digital Services
+          </div>
+          <div class="mt-1 text-sm  uppercase tracking-[0.12em] text-white">
+            Live Deployments
+          </div>
         </div>
-        <div class="text-center md:text-left">
-          <div class="text-7xl font-black mb-4">99.9%</div>
-          <div class="text-lg font-bold opacity-80 uppercase tracking-widest">Platform Uptime</div>
-          <div class="text-xs mt-2 opacity-50 font-bold">SLA GUARANTEE</div>
+
+        <!-- item -->
+        <div class="relative pl-8">
+          <span class="absolute left-0 top-1 bottom-1 w-1 bg-white"></span>
+          <div class="text-7xl md:text-8xl font-semibold tracking-tight">99.9%</div>
+          <div class="mt-2 text-2xl font-semibold mb-4 text-white/85">
+            Platform Uptime
+          </div>
+          <div class="mt-1 text-sm  uppercase tracking-[0.12em] text-white">
+            SLA Guarantee
+          </div>
         </div>
       </div>
-      <div class="mt-12 text-center text-lg font-medium">
+      <div class="mt-14 pt-8 border-t border-[#1E2939]"></div>
+      <!-- bottom sentence (inside box / left aligned) -->
+      <p class="mt-10 max-w-3xl text-xl leading-relaxed text-white">
         Delivering reliable, scalable digital services that drive revenue and engagement for telecom operators
         worldwide.
-      </div>
+      </p>
+
     </div>
   </section>
-  <section class="py-24 bg-white dark:bg-background-dark overflow-hidden">
+  <!-- Strategic Partners -->
+  <section class="py-24 bg-[#F9FAFB] dark:bg-background-dark overflow-hidden border-b-4 border-primary">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="text-center mb-16">
-        <div class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Strategic Partners</div>
-        <h2 class="text-4xl font-extrabold mb-6">Trusted by Leading Telecom Operators</h2>
+      <div class="grid lg:grid-cols-12 gap-20">
+        <div class="md:col-span-1">
+          <div class="line-accent mb-4"></div>
+        </div>
+        <div class="md:col-span-8 pl-5 md:col-start-3">
+          <div class="text-start mb-10">
+            <div class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Strategic Partners</div>
+            <h2 class="text-6xl md:text-7xl font-normal mb-6">Trusted by Leading </h2>
+            <span class="text-primary text-6xl md:text-7xl font-normal mb-6">Telecom
+              Operators</span>
+          </div>
+          <p class="text-slate-600 dark:text-slate-400 mb-10 text-[20px] pl-3">
+            Long-term partnerships with major operators, content providers, and technology leaders across global
+            markets.
+          </p>
+        </div>
       </div>
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8">
-        <div
-          class="bg-slate-50 dark:bg-slate-900 p-8 flex items-center justify-center grayscale hover:grayscale-0 transition-all cursor-pointer border border-slate-100 dark:border-slate-800">
-          <img alt="Vodafone" class="h-10 object-contain"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuAAN4M4xj0hFv04C4oRDZLxABoZQKVqWboGmrc1Jejzw14GKIbnP1NLvB54FYiSclzeuRiLXZ5YCkcjngpP4CPaULlts-3B-tVwsvteNy9t-EgGYwRPncoJszWFbHHlGP3ya0MrhjwlIdPsPqTk3E8cqXxS-AM33uv2kcR6zjZWf3rOoj2F_0U1qNAuzX-bbuuqffJpRWaBsFBbkDYflyN3gYDhmMfgTNnxmoK6mMIG7s9zVtjHt3P4XoCQlZlREUHUl1U-wckixHQ" />
+      <div class="w-fit mx-auto bg-white grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div class="border border-[#F9FAFB] flex justify-center items-center w-[300px] h-[160px]">
+          <img src="./images/Image (Vodafone).png" alt="vodafone">
         </div>
-        <div
-          class="bg-slate-50 dark:bg-slate-900 p-8 flex items-center justify-center grayscale hover:grayscale-0 transition-all cursor-pointer border border-slate-100 dark:border-slate-800">
-          <img alt="Zain" class="h-10 object-contain"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSkKxHyjcCTltj7WoK7mLACji7Hw-zFy40aOoxsEWHNGRo75bZU5kXqJBMmMiYRRyWRvvGJFg0LGUpO-mb876Qg68oh-xECLOKDU8HtyIOd7vI36_q4z151xinFfngqos60BVr5b52dbYxz9BwbhwDnoYlna_bUQZCN-4XCR-6C_1fdsGMuocDKliseUV_od4YRaO0L__67NVyK0V4qcR3s6wp-1WKEoHWYYZpOkJANjrBqQnIu7l682kbB-1aUPdnToFVWsX719k" />
+        <div class="border border-[#F9FAFB] flex justify-center items-center w-[300px] h-[160px]">
+          <img src="./images/1200x630wa 1.png" alt="Asiacell">
         </div>
-        <div
-          class="bg-slate-50 dark:bg-slate-900 p-8 flex items-center justify-center grayscale hover:grayscale-0 transition-all cursor-pointer border border-slate-100 dark:border-slate-800">
-          <img alt="Etisalat" class="h-8 object-contain"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNwUTjlLojUKTLlJqzRgxbaUyfP5l5Twu7ryuOpLuMv0zCpM6bCMMsDS4dqOvZ7LZRpm03kvsEPSQ3t5hRoTYQDJrzkk7XlymFzLVdeWpKKUs7GtkLbWEXJWccKvypKQ3MZPyEykKscW7ZZ8MvlX2kZ7i8iyVufA_LixfbVuBZ0QoNlaKPRfYsJkGz4OPo6lC9KLjTpkAvPqN3sCRQhw0SsqundPzAoGp_Ew_iYEpmUiznHBUJQ7fOqhr64WhmLqPh_i_NwQ320Nk" />
+        <div class="border border-[#F9FAFB] flex justify-center items-center w-[300px] h-[160px]">
+          <img src="./images/Zain-Logo 1.png" alt="zain">
         </div>
-        <div
-          class="bg-slate-50 dark:bg-slate-900 p-8 flex items-center justify-center grayscale hover:grayscale-0 transition-all cursor-pointer border border-slate-100 dark:border-slate-800">
-          <img alt="MTN" class="h-12 object-contain"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBEqGhkkZk8HdIKGNEHkHYx3XP5OsEf0kOpc80IEQsrt-qhNyUaZlzmGnC8NFRhbDL3dwUl92Wzf0pfbXi2WiO55Z-auu8JmrtZu-8dl953ZBrCMj6PsFmRNzkoVoPDYVJvQLdta-Q21S7sE4TH_o2bZc2lINr9vKY7g0KMqOHtz9W-U2aiFDDG1vnstS5zmU7x0bnvExJGGLtsEjgJniDd3eoLHlzbkbleziv3rE51sOu-wsCEnZ3HeIWPZCFHPPyzcLRbmu7-VmA" />
+        <div class="border border-[#F9FAFB] flex justify-center items-center w-[300px] h-[160px]">
+          <img src="./images/R (2) 1.png" alt="etisalat">
         </div>
-        <div
-          class="bg-slate-50 dark:bg-slate-900 p-8 flex items-center justify-center grayscale hover:grayscale-0 transition-all cursor-pointer border border-slate-100 dark:border-slate-800">
-          <img alt="STC" class="h-10 object-contain"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqSEdWyBq5MghbX3K6Mh0dMDYTjyDQNtMxRrpzLmD8PpkeA6p1Fi6FgT3K6dBpVl9RGL-M2oSSiLB7JAGvfkTN-lEQbcxugpcKeH_ZBj3vlLCVQgs3O13T0p_UKvU23g4q_YRLKpQm_P85kWfssXy4sr0b68yuP_Zbg1KZhgEA8PWhWHM4PzDTYxGKBwntEe3HMgs--7QA6Jv683m-DOAxeK0a8LK1WHhUCf404lXEPFm3Ibn969AUn-6Ac0dmjlLaIrJu8GMkYEw" />
+        <div class="border border-[#F9FAFB] flex justify-center items-center w-[300px] h-[160px]">
+          <img src="./images/R (3) 1.png" alt="vodacom">
         </div>
-        <div
-          class="bg-slate-50 dark:bg-slate-900 p-8 flex items-center justify-center grayscale hover:grayscale-0 transition-all cursor-pointer border border-slate-100 dark:border-slate-800">
-          <img alt="Telkomsel" class="h-10 object-contain"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuBojQrvsodredC6xoKhKatJnFgtAsgTRFDUEtRHr3ejAaStaDTfvGGc_-zzJxu9eTbNdmHHnkwdLP3n-z6pa4sXdJA8HDr5gwBMn74W3nRAn3sW8EmqVrBxsdBKL6klzwbgHK3tbyaT0DpfgFEenXw4XHfuRbkAThdKkqME42GfMb0G0QtSmg4Sr0KNRuiYMkCG4wct7vFakiw4fi9lfguitepZdVbarUdgmM83AvFxqqo2BIAeVP66TqXgqyfQ13452OHpBybCvDk" />
+        <div class="border border-[#F9FAFB] flex justify-center items-center w-[300px] h-[160px]">
+          <img src="./images/Telkomsel-Logo 1.png" alt="telkomsel">
         </div>
-        <div
-          class="bg-slate-50 dark:bg-slate-900 p-8 flex items-center justify-center grayscale hover:grayscale-0 transition-all cursor-pointer border border-slate-100 dark:border-slate-800">
-          <img alt="Ooredoo" class="h-10 object-contain"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuA49715juiQN7iCAk4abyquE5cJtmtlzSHLM8HFSYw3j4X-K-3hFKI2fqQ6r4bj7sv5cpNl0HTWXdpDECDmC_vOcIr3O2DhouHtovnaleQBI_nLQW6U6CI54RnMp9nZ_7QUDOxdoOzcWEn1MffTZlZDpT-qkrYHNgpj2JqkpOQBb5KCVsGIJYZRZXnqLzo4x7PrECSzab6nH8xZtY4HXQbJMgTFV3HmwhkgLRdVHxNNSUyyd49qE-zAKvjmDRYH4QIeh-EnEsRXr6A" />
+        <div class="border border-[#F9FAFB] flex justify-center items-center w-[300px] h-[160px]">
+          <img src="./images/MTN.JO-d1d53d13 1.png" alt="MTN">
         </div>
-        <div
-          class="bg-slate-50 dark:bg-slate-900 p-8 flex items-center justify-center grayscale hover:grayscale-0 transition-all cursor-pointer border border-slate-100 dark:border-slate-800">
-          <img alt="Orange" class="h-10 object-contain"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDP0iEwXxxAmcFV_IRwxm2NyjVlPREBTeZe3qgwISd8NFgo1vDARVicDswJabJwKGJ8WuclhlL8ZxmoNJjZHgXwlKQ7J72E2uxa5LAeZZKVjaCzDxkTvw-ldhsjx_a5HejzH3I8DNoB1HPntGFUDfVfMh2i-NLRgHgkBmukGUS4MUjfr5qCT-a9zZVKitfVYYqgHvEDl5qZWXoV3SI2ydV6T58VBbcj24JzQok8Cf79-m4E8L3w2qfznT_5bCdqvhD4M7f6iy4JISk" />
+        <div class="border border-[#F9FAFB] flex justify-center items-center w-[300px] h-[160px]">
+          <img src="./images/mobily-logo-freelogovectors.net_ 1.png" alt="mobily">
+        </div>
+        <div class="border border-[#F9FAFB] flex justify-center items-center w-[300px] h-[160px]">
+          <img src="./images/logo-01 1.png" alt="stc">
+        </div>
+        <div class="border border-[#F9FAFB] flex justify-center items-center w-[300px] h-[160px]">
+          <img src="./images/659ffe6f3fcfe41d6c5bf74c_Layer_1-3 1.png" alt="moov Africa">
+        </div>
+        <div class="border border-[#F9FAFB] flex justify-center items-center w-[300px] h-[160px]">
+          <img src="./images/zong-logo-approx 1.png" alt="zong 4G">
+        </div>
+        <div class="border border-[#F9FAFB] flex justify-center items-center w-[300px] h-[160px]">
+          <img src="./images/image0.png" alt="ethio telecom">
         </div>
       </div>
       <div class="mt-16 text-center text-slate-400 italic font-medium">
         "Collaborating with industry leaders to shape the future of digital services in telecommunications"
       </div>
+      <div class="mt-6 flex justify-center items-center">
+        <span class="w-[8%] border-t-4 border-primary"></span>
+      </div>
     </div>
   </section>
-  <section class="py-24 bg-slate-50 dark:bg-slate-900/40">
+  <!-- Global Footprint -->
+  <section class="py-24 bg-white dark:bg-slate-900/40">
     <div class="max-w-7xl mx-auto px-6">
-      <div class="grid lg:grid-cols-2 gap-16 items-center">
-        <div>
+      <div class="grid lg:grid-cols-12 gap-20">
+        <div class="md:col-span-1">
           <div class="line-accent mb-4"></div>
-          <div class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Global Footprint</div>
-          <h2 class="text-5xl font-extrabold mb-8 leading-tight">Presence Across <br /><span class="text-primary">3
-              Continents</span></h2>
-          <p class="text-slate-600 dark:text-slate-400 mb-10 text-lg">
+        </div>
+        <div class="md:col-span-8 pl-5 md:col-start-3">
+          <div class="text-start mb-10">
+            <div class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Global Footprint</div>
+            <h2 class="text-6xl md:text-7xl font-normal mb-6">Presence Across </h2>
+            <span class="text-primary text-6xl md:text-7xl font-normal mb-6">3 Continents</span>
+          </div>
+          <p class="text-slate-600 dark:text-slate-400 mb-10 text-[20px] pl-3">
             Delivering enterprise-grade digital services to telecom operators in the world's fastest-growing markets.
             Our infrastructure spans key regions, enabling seamless global deployment.
           </p>
-          <div
-            class="grid grid-cols-2 gap-px bg-slate-200 dark:bg-slate-700 border border-slate-200 dark:border-slate-700">
-            <div class="bg-primary text-white p-6">
-              <div class="text-3xl font-bold mb-1">15+</div>
-              <div class="text-sm font-bold uppercase tracking-widest opacity-80">Countries</div>
-            </div>
-            <div class="bg-primary text-white p-6">
-              <div class="text-3xl font-bold mb-1">20+</div>
-              <div class="text-sm font-bold uppercase tracking-widest opacity-80">Partners</div>
-            </div>
-            <div class="bg-primary text-white p-6">
-              <div class="text-3xl font-bold mb-1">30+</div>
-              <div class="text-sm font-bold uppercase tracking-widest opacity-80">Solutions</div>
-            </div>
-            <div class="bg-primary text-white p-6">
-              <div class="text-3xl font-bold mb-1">3</div>
-              <div class="text-sm font-bold uppercase tracking-widest opacity-80">Continents</div>
-            </div>
+        </div>
+      </div>
+      <div class="mx-auto relative border border-[#E5E7EB] bg-white aspect-[770/442] overflow-hidden">
+
+        <!-- Labels -->
+        <div
+          class="absolute left-[55px] top-[36.4%] -translate-y-1/2 text-[11px] font-bold uppercase tracking-wide text-black">
+          MENA
+        </div>
+        <div
+          class="absolute left-[90px] top-[43.7%] -translate-y-1/2 text-[11px] font-bold uppercase tracking-wide text-black">
+          ASIA PACIFIC
+        </div>
+        <div
+          class="absolute left-[46px] top-[57.2%] -translate-y-1/2 text-[11px] font-bold uppercase tracking-wide text-black">
+          AFRICA
+        </div>
+
+        <!-- Dashed lines -->
+        <div class="absolute left-[95px] right-[525px] top-[36.4%] border-t z-10 border-dashed border-black/30"></div>
+        <div class="absolute left-[170px] right-[280px] top-[44.2%] border-t z-10 border-dashed border-black/30"></div>
+        <div class="absolute left-[95px] right-[587px] top-[57.2%] border-t z-30 border-dashed border-black/30"></div>
+
+        <!-- Shapes Layer -->
+        <!-- MENA -->
+        <div class="absolute left-[51.7%] top-[30.3%] w-[12.5%]">
+          <svg viewBox="0 0 165 91" class="w-full h-auto block">
+            <path
+              d="M5.62915 5.59302L42.8382 0.941895L89.3494 10.2441L126.558 19.5464L154.465 33.4998L163.767 56.7554L154.465 80.011L126.558 89.3133L89.3494 84.6621L52.1404 75.3599L19.5825 61.4065L0.978027 38.1509L5.62915 5.59302Z"
+              fill="#1C4413" stroke="#B9B9B9" stroke-width="1.86045" />
+            <path
+              d="M84.6981 54.8948C88.8081 54.8948 92.1399 51.563 92.1399 47.453C92.1399 43.343 88.8081 40.0112 84.6981 40.0112C80.5882 40.0112 77.2563 43.343 77.2563 47.453C77.2563 51.563 80.5882 54.8948 84.6981 54.8948Z"
+              fill="white" stroke="#B9B9B9" stroke-width="1.86045" />
+          </svg>
+        </div>
+
+        <!-- ASIA PACIFIC -->
+        <div class="absolute left-[68.3%] top-[29.2%] w-[17.9%]">
+          <svg viewBox="0 0 235 174" class="w-full h-auto block">
+            <path
+              d="M19.5493 5.59107L75.3628 0.939941L131.176 14.8933L177.688 33.4978L214.897 56.7534L233.501 89.3113L228.85 126.52L205.594 154.427L168.385 168.38L121.874 173.032L75.3628 163.729L38.1538 145.125L10.2471 117.218L0.944824 80.0091L5.59595 42.8001L19.5493 5.59107Z"
+              fill="#1C4413" stroke="#B9B9B9" stroke-width="1.86045" />
+            <path
+              d="M124.51 120.095C128.62 120.095 131.951 116.763 131.951 112.653C131.951 108.543 128.62 105.211 124.51 105.211C120.4 105.211 117.068 108.543 117.068 112.653C117.068 116.763 120.4 120.095 124.51 120.095Z"
+              fill="white" stroke="#D7D7D7" stroke-width="1.86045" />
+          </svg>
+        </div>
+
+        <!-- AFRICA -->
+        <div class="absolute left-[45.6%] top-[42.3%] z-20 w-[12.1%]">
+          <svg viewBox="0 0 161 207" class="w-full h-auto block">
+            <path
+              d="M61.4095 1.03027L98.6185 10.3325L126.525 28.937L145.13 56.8438L154.432 94.0528L159.083 131.262L149.781 168.471L126.525 196.378L89.3162 205.68L52.1072 201.029L24.2005 182.424L5.59595 149.866L0.944824 112.657L10.2471 75.4483L28.8516 38.2393L47.4561 14.9836L61.4095 1.03027Z"
+              fill="#1C4413" stroke="#B9B9B9" stroke-width="1.86045" />
+            <path
+              d="M98.6181 120.099C102.728 120.099 106.06 116.767 106.06 112.657C106.06 108.547 102.728 105.215 98.6181 105.215C94.5081 105.215 91.1763 108.547 91.1763 112.657C91.1763 116.767 94.5081 120.099 98.6181 120.099Z"
+              fill="white" stroke="#B9B9B9" stroke-width="1.86045" />
+          </svg>
+        </div>
+
+        <!-- Legend -->
+        <div class="absolute right-[56px] bottom-[58px] bg-white border border-[#E5E7EB] px-4 py-4 w-[130px]">
+          <div class="text-[9px] uppercase tracking-widest text-gray-500 mb-3">LEGEND</div>
+
+          <div class="flex items-center gap-2 mb-2">
+            <span class="w-3 h-3 bg-[#1C4413] inline-block"></span>
+            <span class="text-[10px] text-gray-800">Active Markets</span>
+          </div>
+
+          <div class="flex items-center gap-2">
+            <span class="w-3 h-3 rounded-full border border-gray-400 inline-block"></span>
+            <span class="text-[10px] text-gray-800">Regional Hubs</span>
           </div>
         </div>
-        <div class="relative">
-          <div
-            class="aspect-video bg-slate-200 dark:bg-slate-800 rounded-lg overflow-hidden relative flex items-center justify-center">
-            <span class="material-icons text-8xl opacity-10">public</span>
-            <div class="absolute top-1/3 left-1/4 w-3 h-3 bg-primary rounded-full animate-pulse"></div>
-            <div class="absolute top-1/2 left-1/3 w-3 h-3 bg-primary rounded-full animate-pulse delay-75"></div>
-            <div class="absolute bottom-1/3 right-1/4 w-3 h-3 bg-primary rounded-full animate-pulse delay-150"></div>
-            <div class="absolute top-1/2 right-1/3 w-3 h-3 bg-primary rounded-full animate-pulse delay-200"></div>
-            <div
-              class="absolute bottom-4 left-4 bg-white dark:bg-slate-900 p-4 rounded shadow-lg text-sm font-bold uppercase">
-              <div class="flex items-center gap-2 mb-1">
-                <div class="w-2 h-2 bg-primary rounded-full"></div> Active Markets
-              </div>
-              <div class="flex items-center gap-2">
-                <div class="w-2 h-2 bg-slate-400 rounded-full"></div> Regional Hubs
-              </div>
-            </div>
-          </div>
+
+      </div>
+
+      <div class="mt-24 grid grid-cols-4 gap-8">
+        <div
+          class="bg-gradient-to-r from-[#E7000B] to-[#810006] rounded-xl flex justify-center items-center flex-col text-white p-6">
+          <div class="text-5xl  mb-1">15+</div>
+          <div class="text-lg uppercase tracking-widest">Countries</div>
+          <div class="text-sm uppercase tracking-widest">Active Markets</div>
+        </div>
+        <div
+          class="bg-gradient-to-r from-[#E7000B] to-[#810006] rounded-xl flex justify-center items-center flex-col text-white p-6">
+          <div class="text-5xl  mb-1">20+</div>
+          <div class="text-lg uppercase tracking-widest">Partners</div>
+          <div class="text-sm uppercase tracking-widest">Telecom Partners</div>
+        </div>
+        <div
+          class="bg-gradient-to-r from-[#E7000B] to-[#810006] rounded-xl flex justify-center items-center flex-col text-white p-6">
+          <div class="text-5xl  mb-1">30+</div>
+          <div class="text-lg uppercase tracking-widest">Solutions</div>
+          <div class="text-sm uppercase tracking-widest">Content & Technology</div>
+        </div>
+        <div
+          class="bg-gradient-to-r from-[#E7000B] to-[#810006] rounded-xl flex justify-center items-center flex-col text-white p-6">
+          <div class="text-5xl  mb-1">3</div>
+          <div class="text-lg uppercase tracking-widest">Continents</div>
+          <div class="text-sm uppercase tracking-widest">Global Presence</div>
         </div>
       </div>
     </div>
   </section>
+  <section class="bg-white  border-b-4 border-primary">
+    <div class="max-w-7xl mx-auto px-6 py-10">
+
+      <!-- Regions Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+
+        <!-- MENA (full width on md+) -->
+        <div class="md:col-span-2">
+          <div class="flex items-start justify-between border-b border-slate-200 pb-3">
+            <div>
+              <div class="text-[10px] uppercase tracking-widest text-slate-400">MENA</div>
+              <h3 class="text-[13px] font-medium text-red-600 mt-1">Middle East &amp; North Africa</h3>
+            </div>
+
+            <!-- pin icon -->
+            <span class="inline-flex w-6 h-6 items-center justify-center  text-red-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path
+                  d="M26.6602 13.3301C26.6602 19.9858 19.2766 26.9174 16.7972 29.0582C16.5663 29.2319 16.2851 29.3258 15.9961 29.3258C15.7071 29.3258 15.4259 29.2319 15.195 29.0582C12.7156 26.9174 5.33203 19.9858 5.33203 13.3301C5.33203 10.5018 6.45556 7.78935 8.45546 5.78945C10.4554 3.78955 13.1678 2.66602 15.9961 2.66602C18.8244 2.66602 21.5368 3.78955 23.5367 5.78945C25.5366 7.78935 26.6602 10.5018 26.6602 13.3301Z"
+                  stroke="#E7000B" stroke-width="2.66602" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M15.9961 17.3291C18.2047 17.3291 19.9951 15.5387 19.9951 13.3301C19.9951 11.1215 18.2047 9.33105 15.9961 9.33105C13.7875 9.33105 11.9971 11.1215 11.9971 13.3301C11.9971 15.5387 13.7875 17.3291 15.9961 17.3291Z"
+                  stroke="#E7000B" stroke-width="2.66602" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </div>
+
+          <ul class="divide-y divide-slate-100">
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> United Arab Emirates
+            </li>
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> Saudi Arabia
+            </li>
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> Egypt
+            </li>
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> Kuwait
+            </li>
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> Bahrain
+            </li>
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> Iraq
+            </li>
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> Oman
+            </li>
+          </ul>
+
+          <div class="pt-6 mt-6 border-t border-slate-200">
+            <span class="text-red-600 font-medium">7</span>
+            <span class="text-[12px] text-slate-700 ms-2">Active Markets</span>
+          </div>
+        </div>
+
+        <!-- AFRICA -->
+        <div class="">
+          <div class="flex items-start justify-between border-b border-slate-200 pb-3">
+            <div>
+              <div class="text-[10px] uppercase tracking-widest text-slate-400">AFRICA</div>
+              <h3 class="text-[13px] font-medium text-red-600 mt-1">Sub-Saharan Africa</h3>
+            </div>
+
+            <span class="inline-flex w-6 h-6 items-center justify-center  text-red-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path
+                  d="M26.6602 13.3301C26.6602 19.9858 19.2766 26.9174 16.7972 29.0582C16.5663 29.2319 16.2851 29.3258 15.9961 29.3258C15.7071 29.3258 15.4259 29.2319 15.195 29.0582C12.7156 26.9174 5.33203 19.9858 5.33203 13.3301C5.33203 10.5018 6.45556 7.78935 8.45546 5.78945C10.4554 3.78955 13.1678 2.66602 15.9961 2.66602C18.8244 2.66602 21.5368 3.78955 23.5367 5.78945C25.5366 7.78935 26.6602 10.5018 26.6602 13.3301Z"
+                  stroke="#E7000B" stroke-width="2.66602" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M15.9961 17.3291C18.2047 17.3291 19.9951 15.5387 19.9951 13.3301C19.9951 11.1215 18.2047 9.33105 15.9961 9.33105C13.7875 9.33105 11.9971 11.1215 11.9971 13.3301C11.9971 15.5387 13.7875 17.3291 15.9961 17.3291Z"
+                  stroke="#E7000B" stroke-width="2.66602" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </div>
+
+          <ul class="divide-y divide-slate-100">
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> Nigeria
+            </li>
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> Kenya
+            </li>
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> South Africa
+            </li>
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> Ethiopia
+            </li>
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> Gabon
+            </li>
+          </ul>
+
+          <div class="pt-6 mt-6 border-t border-slate-200">
+            <span class="text-red-600 font-medium">5</span>
+            <span class="text-[12px] text-slate-700 ms-2">Active Markets</span>
+          </div>
+        </div>
+
+        <!-- ASIA PACIFIC -->
+        <div class="">
+          <div class="flex items-start justify-between border-b border-slate-200 pb-3">
+            <div>
+              <div class="text-[10px] uppercase tracking-widest text-slate-400">ASIA PACIFIC</div>
+              <h3 class="text-[13px] font-medium text-red-600 mt-1">Asia Pacific</h3>
+            </div>
+
+            <span class="inline-flex w-6 h-6 items-center justify-center  text-red-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                <path
+                  d="M26.6602 13.3301C26.6602 19.9858 19.2766 26.9174 16.7972 29.0582C16.5663 29.2319 16.2851 29.3258 15.9961 29.3258C15.7071 29.3258 15.4259 29.2319 15.195 29.0582C12.7156 26.9174 5.33203 19.9858 5.33203 13.3301C5.33203 10.5018 6.45556 7.78935 8.45546 5.78945C10.4554 3.78955 13.1678 2.66602 15.9961 2.66602C18.8244 2.66602 21.5368 3.78955 23.5367 5.78945C25.5366 7.78935 26.6602 10.5018 26.6602 13.3301Z"
+                  stroke="#E7000B" stroke-width="2.66602" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M15.9961 17.3291C18.2047 17.3291 19.9951 15.5387 19.9951 13.3301C19.9951 11.1215 18.2047 9.33105 15.9961 9.33105C13.7875 9.33105 11.9971 11.1215 11.9971 13.3301C11.9971 15.5387 13.7875 17.3291 15.9961 17.3291Z"
+                  stroke="#E7000B" stroke-width="2.66602" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </span>
+          </div>
+
+          <ul class="divide-y divide-slate-100 min-h-[215px]">
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> Indonesia
+            </li>
+            <li class="py-3 flex items-center gap-2 text-[12px] text-slate-700">
+              <span class="w-1.5 h-1.5 bg-red-600 rounded-[2px]"></span> Pakistan
+            </li>
+          </ul>
+
+          <div class="pt-6 mt-6 border-t border-slate-200">
+            <span class="text-red-600 font-medium">2</span>
+            <span class="text-[12px] text-slate-700 ms-2">Active Markets</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom KPIs -->
+      <div class="mt-12 pt-10 border-t border-slate-200">
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-10 text-center">
+
+          <div>
+            <div class="flex justify-center mb-2 text-red-600">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 40 40" fill="none">
+                <path
+                  d="M20.0002 36.6663C29.2049 36.6663 36.6668 29.2044 36.6668 19.9997C36.6668 10.7949 29.2049 3.33301 20.0002 3.33301C10.7954 3.33301 3.3335 10.7949 3.3335 19.9997C3.3335 29.2044 10.7954 36.6663 20.0002 36.6663Z"
+                  stroke="#E7000B" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+                <path
+                  d="M20.0002 3.33301C15.7206 7.8266 13.3335 13.7942 13.3335 19.9997C13.3335 26.2051 15.7206 32.1728 20.0002 36.6663C24.2798 32.1728 26.6668 26.2051 26.6668 19.9997C26.6668 13.7942 24.2798 7.8266 20.0002 3.33301Z"
+                  stroke="#E7000B" stroke-width="3.33333" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M3.3335 20H36.6668" stroke="#E7000B" stroke-width="3.33333" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="text-[12px] font-medium text-slate-800">Global Infrastructure</div>
+            <div class="text-[10px] text-slate-400 mt-1">Multi-region deployment capability</div>
+          </div>
+
+          <div>
+            <div class="text-red-600 text-[16px] font-semibold">99.9%</div>
+            <div class="text-[12px] font-medium text-slate-800">Service Uptime</div>
+            <div class="text-[10px] text-slate-400 mt-1">Guaranteed SLA across all markets</div>
+          </div>
+
+          <div>
+            <div class="text-red-600 text-[16px] font-semibold">24/7</div>
+            <div class="text-[12px] font-medium text-slate-800">Operations</div>
+            <div class="text-[10px] text-slate-400 mt-1">Continuous monitoring &amp; support</div>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <section class="bg-white">
+    <div class="max-w-5xl mx-auto px-6 py-16 md:py-20">
+
+      <!-- Header -->
+      <div class="relative pl-6 md:pl-8">
+        <span class="absolute left-0 top-1 w-[2px] h-[86px] bg-red-600"></span>
+
+        <div class="text-[10px] uppercase tracking-[0.45em] text-slate-400 mb-4">
+          WHY WORLD LINK
+        </div>
+
+        <h2 class="text-[34px] sm:text-[40px] md:text-[44px] font-medium leading-tight text-slate-900">
+          Strategic Partner for<br />
+          <span class="text-red-600">Digital Growth</span>
+        </h2>
+
+        <p class="mt-4 max-w-xl text-[11px] leading-relaxed text-slate-500">
+          Deep telecom expertise combined with cutting-edge technology to maximize subscriber value and unlock new
+          revenue
+          streams.
+        </p>
+      </div>
+
+      <!-- List -->
+      <div class="mt-12 md:mt-14">
+
+        <!-- Row 01 -->
+        <div
+          class="grid grid-cols-[44px_34px_1fr] md:grid-cols-[56px_40px_220px_1fr] gap-y-2 md:gap-y-0 items-start py-6 border-b border-slate-100">
+          <div class="text-red-600 text-[13px] font-medium leading-none pt-1">01</div>
+
+          <div class="text-slate-900 pt-0.5">
+            <!-- shield -->
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M12 3l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V7l8-4Z" />
+            </svg>
+          </div>
+
+          <div class="hidden md:block text-[12px] font-medium text-slate-800 pt-0.5">
+            Operator-Grade<br />Compliance
+          </div>
+
+          <div class="text-[11px] leading-relaxed text-slate-500 md:pt-0.5">
+            <div class="md:hidden text-[12px] font-medium text-slate-800 mb-2">
+              Operator-Grade Compliance
+            </div>
+            Full adherence to telecom regulations, data protection standards, and industry best practices.
+          </div>
+        </div>
+
+        <!-- Row 02 -->
+        <div
+          class="grid grid-cols-[44px_34px_1fr] md:grid-cols-[56px_40px_220px_1fr] gap-y-2 md:gap-y-0 items-start py-6 border-b border-slate-100">
+          <div class="text-red-600 text-[13px] font-medium leading-none pt-1">02</div>
+
+          <div class="text-slate-900 pt-0.5">
+            <!-- chart -->
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M4 17l6-6 4 4 6-7" />
+              <path d="M20 8v5h-5" />
+            </svg>
+          </div>
+
+          <div class="hidden md:block text-[12px] font-medium text-slate-800 pt-0.5">
+            Scalable Platforms
+          </div>
+
+          <div class="text-[11px] leading-relaxed text-slate-500 md:pt-0.5">
+            <div class="md:hidden text-[12px] font-medium text-slate-800 mb-2">
+              Scalable Platforms
+            </div>
+            Infrastructure designed to handle millions of transactions with 99.9% uptime guarantee.
+          </div>
+        </div>
+
+        <!-- Row 03 -->
+        <div
+          class="grid grid-cols-[44px_34px_1fr] md:grid-cols-[56px_40px_220px_1fr] gap-y-2 md:gap-y-0 items-start py-6 border-b border-slate-100">
+          <div class="text-red-600 text-[13px] font-medium leading-none pt-1">03</div>
+
+          <div class="text-slate-900 pt-0.5">
+            <!-- rocket -->
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M14 4c4 0 6 2 6 6-3 6-9 10-14 11 1-5 5-11 8-14Z" />
+              <path d="M9 15l-3 3" />
+              <path d="M8 12l4 4" />
+              <path d="M15 9h.01" />
+            </svg>
+          </div>
+
+          <div class="hidden md:block text-[12px] font-medium text-slate-800 pt-0.5">
+            Fast Go-to-Market
+          </div>
+
+          <div class="text-[11px] leading-relaxed text-slate-500 md:pt-0.5">
+            <div class="md:hidden text-[12px] font-medium text-slate-800 mb-2">
+              Fast Go-to-Market
+            </div>
+            Rapid deployment with pre-integrated solutions reducing time to revenue by 60%.
+          </div>
+        </div>
+
+        <!-- Row 04 -->
+        <div
+          class="grid grid-cols-[44px_34px_1fr] md:grid-cols-[56px_40px_220px_1fr] gap-y-2 md:gap-y-0 items-start py-6 border-b border-slate-100">
+          <div class="text-red-600 text-[13px] font-medium leading-none pt-1">04</div>
+
+          <div class="text-slate-900 pt-0.5">
+            <!-- globe/coin -->
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M3 12h18" />
+              <path d="M12 3c2.5 2.5 4 5.8 4 9s-1.5 6.5-4 9c-2.5-2.5-4-5.8-4-9s1.5-6.5 4-9Z" />
+            </svg>
+          </div>
+
+          <div class="hidden md:block text-[12px] font-medium text-slate-800 pt-0.5">
+            Proven Monetization<br />Models
+          </div>
+
+          <div class="text-[11px] leading-relaxed text-slate-500 md:pt-0.5">
+            <div class="md:hidden text-[12px] font-medium text-slate-800 mb-2">
+              Proven Monetization Models
+            </div>
+            Battle-tested revenue strategies delivering consistent returns across diverse markets.
+          </div>
+        </div>
+
+        <!-- Row 05 -->
+        <div
+          class="grid grid-cols-[44px_34px_1fr] md:grid-cols-[56px_40px_220px_1fr] gap-y-2 md:gap-y-0 items-start py-6 border-b border-slate-100">
+          <div class="text-red-600 text-[13px] font-medium leading-none pt-1">05</div>
+
+          <div class="text-slate-900 pt-0.5">
+            <!-- link -->
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <path d="M10 13a5 5 0 0 1 0-7l1-1a5 5 0 0 1 7 7l-1 1" />
+              <path d="M14 11a5 5 0 0 1 0 7l-1 1a5 5 0 0 1-7-7l1-1" />
+            </svg>
+          </div>
+
+          <div class="hidden md:block text-[12px] font-medium text-slate-800 pt-0.5">
+            Localized Solutions
+          </div>
+
+          <div class="text-[11px] leading-relaxed text-slate-500 md:pt-0.5">
+            <div class="md:hidden text-[12px] font-medium text-slate-800 mb-2">
+              Localized Solutions
+            </div>
+            Region-specific content, language support, and payment methods tailored to local preferences.
+          </div>
+        </div>
+
+        <!-- Row 06 -->
+        <div
+          class="grid grid-cols-[44px_34px_1fr] md:grid-cols-[56px_40px_220px_1fr] gap-y-2 md:gap-y-0 items-start py-6">
+          <div class="text-red-600 text-[13px] font-medium leading-none pt-1">06</div>
+
+          <div class="text-slate-900 pt-0.5">
+            <!-- clock -->
+            <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6">
+              <circle cx="12" cy="12" r="9" />
+              <path d="M12 7v6l3 2" />
+            </svg>
+          </div>
+
+          <div class="hidden md:block text-[12px] font-medium text-slate-800 pt-0.5">
+            24/7 Enterprise Support
+          </div>
+
+          <div class="text-[11px] leading-relaxed text-slate-500 md:pt-0.5">
+            <div class="md:hidden text-[12px] font-medium text-slate-800 mb-2">
+              24/7 Enterprise Support
+            </div>
+            Dedicated technical teams ensuring continuous operations and rapid issue resolution.
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-14 text-center">
+        <p class="text-[10px] text-slate-400 max-w-md mx-auto leading-relaxed">
+          Ready to transform your digital service offerings, and unlock new<br class="hidden sm:block" />
+          revenue streams?
+        </p>
+
+        <button
+          class="mt-6 inline-flex items-center justify-center gap-2 bg-[#E7000B] hover:bg-[#c40009] text-white text-[11px] font-medium px-5 py-2.5 rounded-md shadow-sm transition-colors">
+          Schedule a Consultation
+          <span class="text-white/90">›</span>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+
+
   <section class="py-24 bg-white dark:bg-background-dark">
     <div class="max-w-7xl mx-auto px-6">
       <div class="max-w-3xl mb-16">
         <div class="line-accent mb-4"></div>
         <div class="text-sm font-bold uppercase tracking-widest text-primary mb-2">Why World Link</div>
         <h2 class="text-4xl font-extrabold mb-6">Strategic Partner for Digital Growth</h2>
-        <p class="text-slate-500 text-lg">Deep telecom expertise combined with cutting-edge technology to maximize
+        <p class="text-slate-600 text-lg">Deep telecom expertise combined with cutting-edge technology to maximize
           subscriber value and unlock new revenue streams.</p>
       </div>
       <div class="space-y-4">
@@ -485,7 +1141,7 @@
           </div>
           <div class="flex-1">
             <h4 class="text-lg font-bold mb-1">Operator-Grade Compliance</h4>
-            <p class="text-sm text-slate-500">Full adherence to telecom regulations, data protection standards, and
+            <p class="text-sm text-slate-600">Full adherence to telecom regulations, data protection standards, and
               industry best practices.</p>
           </div>
         </div>
@@ -497,7 +1153,7 @@
           </div>
           <div class="flex-1">
             <h4 class="text-lg font-bold mb-1">Scalable Platforms</h4>
-            <p class="text-sm text-slate-500">Infrastructure designed to handle millions of transactions with 99.9%
+            <p class="text-sm text-slate-600">Infrastructure designed to handle millions of transactions with 99.9%
               uptime guarantee.</p>
           </div>
         </div>
@@ -509,7 +1165,7 @@
           </div>
           <div class="flex-1">
             <h4 class="text-lg font-bold mb-1">Fast Go-To-Market</h4>
-            <p class="text-sm text-slate-500">Rapid deployment with pre-integrated solutions reducing time to revenue by
+            <p class="text-sm text-slate-600">Rapid deployment with pre-integrated solutions reducing time to revenue by
               60%.</p>
           </div>
         </div>
